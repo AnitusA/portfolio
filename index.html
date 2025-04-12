@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0073e6, #00d9ff);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0052a2;
+            font-size: 2rem;
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* Section Styles */
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            animation: slideUp 2s ease-in-out;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #fff;
+            font-size: 2rem;
+            animation: textFloat 4s infinite;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+     
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0052a2;
+            font-size: 1rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes textFloat {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        My Portfolio
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome! I'm Anitus A, a creative B.E Computer Science Students.</p>
+    
+
+  
+
+    <footer>
+        &copy; 2025 [Your Name]. All rights reserved.
+    </footer>
+
+</body>
+</html>
